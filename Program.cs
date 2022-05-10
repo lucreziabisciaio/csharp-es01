@@ -13,6 +13,20 @@ namespace MyApp // Note: actual namespace depends on the project name.
         //        "il nostro programma inizia qui"
         static void Main(string[] args) // entry point
         {
+
+            // VETTORI:
+            // i vettori hanno una dimensione fissa
+            // lett. recursiva (da sx a dx):
+            // "vect" e' un vettore di INTERI (di 120 elementi)
+            int[] vect = new int[120];
+            vect[0] = 100;
+
+            // array di stringhe
+            string[] svect = new string[10];
+            svect[9] = "Ciao";
+
+            // MOLTIPLICAZIONE
+            // dichiaro le variabili
             int n1, n2;
 
             // Parse o TryParse (corregge gli errori, funziona come la TryCatch)
